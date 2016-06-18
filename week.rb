@@ -13,25 +13,6 @@ class Day < Struct.new(:day)
       :weekend
     else
       :week
+    end
+  end
 end
-end
-end
-#   case Time.now.strftime("%A")
-#   when "Friday"
-#     erb :friday
-#  when "Monday"
-#   erb :monday
-# when "Tuesday"
-#   erb :tuesday
-# when "Wednesday"
-#   redirect to ("https://onet.pl")
-# when "Thursday"
-#   erb :Thursday
-# when "Saturday" || "Sunday"
-# @day= Time.now.strftime("%A")
-#     erb :weeknd
-#
-# else
-#   "dupa2"
-#   "#{Time.now.saturday?}"
-# end
